@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ElevationAPI_Example' do
+  pod 'ElevationAPI', :path => '../'
+
+  target 'ElevationAPI_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
