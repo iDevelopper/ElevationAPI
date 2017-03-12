@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		321F1CE81E75594F00B1AB24 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 321F1CE71E75594F00B1AB24 /* ViewController.m */; };
+		321F1CEB1E7559CB00B1AB24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 321F1CE91E7559CB00B1AB24 /* Main.storyboard */; };
+		321F1CEE1E7559EC00B1AB24 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 321F1CED1E7559EC00B1AB24 /* AppDelegate.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
-		6003F59E195388D20070C39A /* XYZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* XYZAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* XYZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* XYZViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -21,7 +22,6 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		D8920EBBDCF1E2DBD849D8CF /* Pods_ElevationAPI_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06578AAE7BE9EEE4DAD62CFE /* Pods_ElevationAPI_Example.framework */; };
 		F0DCBFB9F807D33ED1BC9B51 /* Pods_ElevationAPI_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB8BE36429568AA72E340462 /* Pods_ElevationAPI_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -39,7 +39,12 @@
 /* Begin PBXFileReference section */
 		06578AAE7BE9EEE4DAD62CFE /* Pods_ElevationAPI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ElevationAPI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E80FF87B042CC1513793190 /* Pods-ElevationAPI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElevationAPI_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ElevationAPI_Example/Pods-ElevationAPI_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		5ADA36A617CCDFEC8A78D9E3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		321F1CE61E75594F00B1AB24 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		321F1CE71E75594F00B1AB24 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		321F1CEA1E7559CB00B1AB24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		321F1CEC1E7559EC00B1AB24 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		321F1CED1E7559EC00B1AB24 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5ADA36A617CCDFEC8A78D9E3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ElevationAPI_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElevationAPI_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,10 +53,6 @@
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6003F59B195388D20070C39A /* ElevationAPI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ElevationAPI-Prefix.pch"; sourceTree = "<group>"; };
-		6003F59C195388D20070C39A /* XYZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYZAppDelegate.h; sourceTree = "<group>"; };
-		6003F59D195388D20070C39A /* XYZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYZAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* XYZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYZViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* XYZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYZViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* ElevationAPI_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElevationAPI_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -61,12 +62,11 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8439C7143E60314E97CF956B /* Pods-ElevationAPI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElevationAPI_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ElevationAPI_Tests/Pods-ElevationAPI_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB8BE36429568AA72E340462 /* Pods_ElevationAPI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ElevationAPI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB908CDAA7C7190550031509 /* Pods-ElevationAPI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElevationAPI_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ElevationAPI_Tests/Pods-ElevationAPI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		BDEE45DD37784678F769504D /* ElevationAPI.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ElevationAPI.podspec; path = ../ElevationAPI.podspec; sourceTree = "<group>"; };
+		BDEE45DD37784678F769504D /* ElevationAPI.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ElevationAPI.podspec; path = ../ElevationAPI.podspec; sourceTree = "<group>"; };
 		D08CD94409F55ABBDE8640AA /* Pods-ElevationAPI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElevationAPI_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ElevationAPI_Example/Pods-ElevationAPI_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D53D82ADF3772745401ADDDD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D53D82ADF3772745401ADDDD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,11 +132,11 @@
 		6003F593195388D20070C39A /* Example for ElevationAPI */ = {
 			isa = PBXGroup;
 			children = (
-				6003F59C195388D20070C39A /* XYZAppDelegate.h */,
-				6003F59D195388D20070C39A /* XYZAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* XYZViewController.h */,
-				6003F5A6195388D20070C39A /* XYZViewController.m */,
+				321F1CEC1E7559EC00B1AB24 /* AppDelegate.h */,
+				321F1CED1E7559EC00B1AB24 /* AppDelegate.m */,
+				321F1CE91E7559CB00B1AB24 /* Main.storyboard */,
+				321F1CE61E75594F00B1AB24 /* ViewController.h */,
+				321F1CE71E75594F00B1AB24 /* ViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -279,10 +279,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				321F1CEB1E7559CB00B1AB24 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,9 +394,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F59E195388D20070C39A /* XYZAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* XYZViewController.m in Sources */,
+				321F1CE81E75594F00B1AB24 /* ViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				321F1CEE1E7559EC00B1AB24 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +419,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		321F1CE91E7559CB00B1AB24 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				321F1CEA1E7559CB00B1AB24 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		6003F596195388D20070C39A /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
