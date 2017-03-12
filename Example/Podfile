@@ -1,4 +1,4 @@
-use_frameworks!
+#use_frameworks!
 
 target 'ElevationAPI_Example' do
   pod 'ElevationAPI', :path => '../'

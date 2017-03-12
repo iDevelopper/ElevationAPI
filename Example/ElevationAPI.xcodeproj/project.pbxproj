@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A8156E1C7D2ED2F902A059A /* libPods-ElevationAPI_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97E89F90FDC6D551613BEE59 /* libPods-ElevationAPI_Tests.a */; };
 		321F1CE81E75594F00B1AB24 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 321F1CE71E75594F00B1AB24 /* ViewController.m */; };
 		321F1CEB1E7559CB00B1AB24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 321F1CE91E7559CB00B1AB24 /* Main.storyboard */; };
 		321F1CEE1E7559EC00B1AB24 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 321F1CED1E7559EC00B1AB24 /* AppDelegate.m */; };
+		321F1CF31E755C9000B1AB24 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 321F1CE71E75594F00B1AB24 /* ViewController.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -22,8 +24,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		D8920EBBDCF1E2DBD849D8CF /* Pods_ElevationAPI_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06578AAE7BE9EEE4DAD62CFE /* Pods_ElevationAPI_Example.framework */; };
-		F0DCBFB9F807D33ED1BC9B51 /* Pods_ElevationAPI_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB8BE36429568AA72E340462 /* Pods_ElevationAPI_Tests.framework */; };
+		9AC05B7F05F553BC6FED4057 /* libPods-ElevationAPI_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD4609DAA609AB52FDEE6281 /* libPods-ElevationAPI_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +38,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06578AAE7BE9EEE4DAD62CFE /* Pods_ElevationAPI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ElevationAPI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E80FF87B042CC1513793190 /* Pods-ElevationAPI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElevationAPI_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ElevationAPI_Example/Pods-ElevationAPI_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		321F1CE61E75594F00B1AB24 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		321F1CE71E75594F00B1AB24 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -62,11 +62,12 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8439C7143E60314E97CF956B /* Pods-ElevationAPI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElevationAPI_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ElevationAPI_Tests/Pods-ElevationAPI_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		AB8BE36429568AA72E340462 /* Pods_ElevationAPI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ElevationAPI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97E89F90FDC6D551613BEE59 /* libPods-ElevationAPI_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ElevationAPI_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB908CDAA7C7190550031509 /* Pods-ElevationAPI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElevationAPI_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ElevationAPI_Tests/Pods-ElevationAPI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BDEE45DD37784678F769504D /* ElevationAPI.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ElevationAPI.podspec; path = ../ElevationAPI.podspec; sourceTree = "<group>"; };
 		D08CD94409F55ABBDE8640AA /* Pods-ElevationAPI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElevationAPI_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ElevationAPI_Example/Pods-ElevationAPI_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D53D82ADF3772745401ADDDD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FD4609DAA609AB52FDEE6281 /* libPods-ElevationAPI_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ElevationAPI_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +78,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				D8920EBBDCF1E2DBD849D8CF /* Pods_ElevationAPI_Example.framework in Frameworks */,
+				9AC05B7F05F553BC6FED4057 /* libPods-ElevationAPI_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +89,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				F0DCBFB9F807D33ED1BC9B51 /* Pods_ElevationAPI_Tests.framework in Frameworks */,
+				0A8156E1C7D2ED2F902A059A /* libPods-ElevationAPI_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +124,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				06578AAE7BE9EEE4DAD62CFE /* Pods_ElevationAPI_Example.framework */,
-				AB8BE36429568AA72E340462 /* Pods_ElevationAPI_Tests.framework */,
+				FD4609DAA609AB52FDEE6281 /* libPods-ElevationAPI_Example.a */,
+				97E89F90FDC6D551613BEE59 /* libPods-ElevationAPI_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -247,7 +248,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = XYZ;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = iDevelopper;
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
@@ -404,6 +405,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				321F1CF31E755C9000B1AB24 /* ViewController.m in Sources */,
 				6003F5BC195388D20070C39A /* Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -467,14 +469,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -487,7 +494,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -507,20 +514,25 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
