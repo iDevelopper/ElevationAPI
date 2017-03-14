@@ -19,13 +19,18 @@
 
 @implementation Elevation
 
+- (instancetype)init
+{
+    return [self initWithBaseUrl:nil andApiVersion:nil];
+}
+
 - (instancetype)initWithBaseUrl:(NSString *)baseURL andApiVersion:(NSString *)apiVersion
 {
     if (!(self = [super init])) {
         return nil;
     }
-    self.baseURL =      @"http://elevationapi.xyz/api";
-    self.apiVersion =   @"v1";
+    _baseURL =      baseURL ? baseURL : @"http://elevationapi.xyz/api";
+    _apiVersion =   apiVersion ? apiVersion : @"v1";
     
     NSURLSessionConfiguration *configuration = [NSURLSessionConfiguration defaultSessionConfiguration];
     self.session = [NSURLSession sessionWithConfiguration:configuration];
@@ -33,7 +38,7 @@
     return self;
 }
 
-- (void)getElevation:(NSArray *)point completionHandler:(void (^)(id result, NSError *error))completionHandler
+- (void)getElevation:(id)point completionHandler:(void (^)(id result, NSError *error))completionHandler
 {
     NSError *error;
     NSData *jsonData = [NSJSONSerialization dataWithJSONObject:point options:0 error:&error];

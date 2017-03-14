@@ -24,6 +24,7 @@
     
     self.elevation = [[Elevation alloc] initWithBaseUrl:nil andApiVersion:nil];
 }
+
 - (IBAction)test:(UIButton *)sender
 {
     self.array = @[@[@44.582352, @6.695185],

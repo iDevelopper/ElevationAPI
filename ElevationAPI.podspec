@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ElevationAPI'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Get the elevation of (almost) any point on Earth.'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-Get the elevation of (almost) any point on Earth.
+Get the elevation of almost any point on the Earth.
                        DESC
 
   s.homepage         = 'https://github.com/iDevelopper/ElevationAPI'
